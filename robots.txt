@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mahiracomunication31-del.github.io/https-github.com-yourname-mahira-communication/sitemap.xml
+Sitemap: https://mahiracomunication31-del.github.io/mahiracomunication/sitemap.xml
