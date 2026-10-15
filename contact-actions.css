@@ -1,0 +1,39 @@
+.floating-call {
+  position: fixed;
+  z-index: 4;
+  right: 160px;
+  bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 11px 15px;
+  border-radius: 30px;
+  background: var(--orange);
+  color: #fff;
+  box-shadow: 0 7px 22px rgba(20, 54, 40, .2);
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.floating-call:hover {
+  background: var(--green-dark);
+}
+
+@media (max-width: 480px) {
+  .floating-call {
+    right: auto;
+    bottom: 16px;
+    left: 14px;
+  }
+
+  .floating-whatsapp {
+    right: 14px;
+    bottom: 16px;
+  }
+}
+
+@media (max-width: 680px) {
+  body {
+    padding-bottom: 64px;
+  }
+}
